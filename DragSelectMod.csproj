@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<AssemblyName>DragSelectMod</AssemblyName>
+		<Product>DragSelectMod</Product>
+		<Description>Drag to select and move multiple cards</Description>
+		<Version>1.0.0</Version>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<!-- Stacklands 경로 정의 -->
+	<PropertyGroup>
+		<GamePath>C:\Program Files (x86)\Steam\steamapps\common\Stacklands</GamePath>
+		<GameDataPath>$(GamePath)\Stacklands_Data\Managed</GameDataPath>
+		<ModOutputDir>C:\Users\tysm9\AppData\LocalLow\sokpop\Stacklands\Mods\DragSelectMod</ModOutputDir>
+	</PropertyGroup>
+
+	<!-- 필요한 DLL만 참조 -->
+	<ItemGroup>
+		<Reference Include="0Harmony">
+			<HintPath>$(GameDataPath)\0Harmony.dll</HintPath>
+		</Reference>
+		<Reference Include="GameScripts">
+			<HintPath>$(GameDataPath)\GameScripts.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(GameDataPath)\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>$(GameDataPath)\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(GameDataPath)\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			<HintPath>$(GameDataPath)\UnityEngine.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputSystem">
+			<HintPath>$(GameDataPath)\Unity.InputSystem.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+			<HintPath>$(GameDataPath)\UnityEngine.PhysicsModule.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<!-- 빌드 시 로그 출력 -->
+	<Target Name="PrintPaths" BeforeTargets="Build">
+		<Message Text="🏗️ Mod Path: $(ModOutputDir)" Importance="high" />
+		<Message Text="🏗️ Target DLL: $(TargetPath)" Importance="high" />
+	</Target>
+
+	<!-- 빌드 완료 후 DLL 자동 복사 -->
+	<Target Name="CopyToMods" AfterTargets="Build">
+		<MakeDir Directories="$(ModOutputDir)" />
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModOutputDir)" />
+		<Copy SourceFiles="manifest.json" DestinationFolder="$(ModOutputDir)" SkipUnchangedFiles="true" />
+	</Target>
+
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\obj\Debug\net48\Mod.csproj.AssemblyReference.cache
+C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\obj\Debug\net48\Mod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\obj\Debug\net48\Mod.AssemblyInfoInputs.cache
+C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\obj\Debug\net48\Mod.AssemblyInfo.cs
+C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\obj\Debug\net48\Mod.csproj.CoreCompileInputs.cache
+C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\obj\Debug\net48\Mod.sourcelink.json
