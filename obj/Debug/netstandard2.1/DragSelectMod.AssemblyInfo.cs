@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Drag to select and move multiple cards")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a6fcb86524a5385bd4ab983d287235f29bfc297")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f935e5d5f89c715d0ee4d84bf6a1e57b4df04da")]
 [assembly: System.Reflection.AssemblyProductAttribute("DragSelectMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DragSelectMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
