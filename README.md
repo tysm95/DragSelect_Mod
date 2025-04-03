@@ -5,6 +5,11 @@ This mod adds intuitive drag-based group selection and movement controls to Stac
 
 ---
 
+> ❗ Tired of moving cards one by one?  
+> **Now you can move them all at once – fast, clean, and easy!**
+
+---
+
 ## ✨ Features
 
 ### ✅ Right-click drag to select multiple cards  
@@ -21,5 +26,4 @@ Cards behave like a group, preserving their spacing during movement.
 
 ---
 
-> ❗ Tired of moving cards one by one?  
-> **Now you can move them all at once – fast, clean, and easy!**
+
