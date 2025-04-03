@@ -18,3 +18,8 @@ Selected cards are scaled up (1.2x) to clearly show they are selected.
 
 ### ✅ Cards retain relative positions while moving  
 Cards behave like a group, preserving their spacing during movement.
+
+---
+
+> ❗ Tired of moving cards one by one?  
+> **Now you can move them all at once – fast, clean, and easy!**
