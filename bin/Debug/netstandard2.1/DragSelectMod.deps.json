@@ -10,12 +10,10 @@
       "DragSelectMod/1.0.0": {
         "dependencies": {
           "0Harmony": "2.10.1.0",
-          "Assembly-CSharp": "0.0.0.0",
           "GameScripts": "0.0.0.0",
           "Unity.InputSystem": "1.6.1.0",
           "UnityEngine.CoreModule": "0.0.0.0",
           "UnityEngine": "0.0.0.0",
-          "UnityEngine.PhysicsModule": "0.0.0.0",
           "UnityEngine.UI": "1.0.0.0"
         },
         "runtime": {
@@ -27,14 +25,6 @@
           "0Harmony.dll": {
             "assemblyVersion": "2.10.1.0",
             "fileVersion": "2.10.1.0"
-          }
-        }
-      },
-      "Assembly-CSharp/0.0.0.0": {
-        "runtime": {
-          "Assembly-CSharp.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -65,14 +55,6 @@
       "UnityEngine/0.0.0.0": {
         "runtime": {
           "UnityEngine.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.PhysicsModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.PhysicsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -134,6 +116,14 @@
           }
         }
       },
+      "UnityEngine.PhysicsModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.PhysicsModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "UnityEngine.ParticleSystemModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.ParticleSystemModule.dll": {
@@ -161,14 +151,6 @@
       "UnityEngine.UnityWebRequestModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.UnityWebRequestModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.UIModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.UIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -369,22 +351,6 @@
       "UnityEngine.AnimationModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.AnimationModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.SharedInternalsModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.SharedInternalsModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.TextRenderingModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.TextRenderingModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -747,11 +713,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Assembly-CSharp/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "GameScripts/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -768,11 +729,6 @@
       "sha512": ""
     },
     "UnityEngine/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.PhysicsModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -812,6 +768,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "UnityEngine.PhysicsModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.ParticleSystemModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -828,11 +789,6 @@
       "sha512": ""
     },
     "UnityEngine.UnityWebRequestModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.UIModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -958,16 +914,6 @@
       "sha512": ""
     },
     "UnityEngine.AnimationModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.SharedInternalsModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.TextRenderingModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
