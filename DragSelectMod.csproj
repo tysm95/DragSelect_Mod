@@ -1,4 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<AssemblyName>DragSelectMod</AssemblyName>
@@ -8,42 +9,52 @@
 		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
-	<PropertyGroup>
+	<!-- 🖥️ Windows 전용 설정 -->
+	<PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
 		<GamePath>C:\Program Files (x86)\Steam\steamapps\common\Stacklands</GamePath>
 		<GameDataPath>$(GamePath)\Stacklands_Data\Managed</GameDataPath>
 		<ModOutputDir>C:\Users\tysm9\AppData\LocalLow\sokpop\Stacklands\Mods\DragSelectMod</ModOutputDir>
 	</PropertyGroup>
 
+	<!-- 🍎 macOS 전용 설정 -->
+	<PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+		<GamePath>/Users/sik/Library/Application Support/Steam/steamapps/common/Stacklands</GamePath>
+		<GameDataPath>$(GamePath)/Stacklands.app/Contents/Resources/Data/Managed</GameDataPath>
+		<ModOutputDir>/Users/sik/Library/Application Support/Stacklands/Mods/DragSelectMod</ModOutputDir>
+	</PropertyGroup>
+
+	<!-- 🔗 DLL 참조 -->
 	<ItemGroup>
 		<Reference Include="0Harmony">
-			<HintPath>$(GameDataPath)\0Harmony.dll</HintPath>
+			<HintPath>$(GameDataPath)/0Harmony.dll</HintPath>
 		</Reference>
 		<Reference Include="GameScripts">
-			<HintPath>$(GameDataPath)\GameScripts.dll</HintPath>
+			<HintPath>$(GameDataPath)/GameScripts.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine">
-			<HintPath>$(GameDataPath)\UnityEngine.dll</HintPath>
+			<HintPath>$(GameDataPath)/UnityEngine.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.CoreModule">
-			<HintPath>$(GameDataPath)\UnityEngine.CoreModule.dll</HintPath>
+			<HintPath>$(GameDataPath)/UnityEngine.CoreModule.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UI">
-			<HintPath>$(GameDataPath)\UnityEngine.UI.dll</HintPath>
+			<HintPath>$(GameDataPath)/UnityEngine.UI.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.InputSystem">
-			<HintPath>$(GameDataPath)\Unity.InputSystem.dll</HintPath>
+			<HintPath>$(GameDataPath)/Unity.InputSystem.dll</HintPath>
 		</Reference>
 		<Reference Include="UnityEngine.UIModule">
-			<HintPath>$(GameDataPath)\UnityEngine.UIModule.dll</HintPath>
+			<HintPath>$(GameDataPath)/UnityEngine.UIModule.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 	</ItemGroup>
 
+	<!-- ✅ 빌드 후 자동 복사 -->
 	<Target Name="CopyToMods" AfterTargets="Build">
 		<MakeDir Directories="$(ModOutputDir)" />
 		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModOutputDir)" />
-		<Copy SourceFiles="manifest.json" DestinationFolder="$(ModOutputDir)" />
-		<Copy SourceFiles="icon.png" DestinationFolder="$(ModOutputDir)" />
-		
+		<Copy SourceFiles="manifest.json" DestinationFolder="$(ModOutputDir)" SkipUnchangedFiles="true" />
+		<Copy SourceFiles="icon.png" DestinationFolder="$(ModOutputDir)" SkipUnchangedFiles="true" />
 	</Target>
+
 </Project>

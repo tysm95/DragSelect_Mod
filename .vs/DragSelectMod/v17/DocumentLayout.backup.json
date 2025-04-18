@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tysm9\\OneDrive\\\uBB38\uC11C\\GitHub\\DragSelect_Mod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|c:\\users\\tysm9\\onedrive\\\uBB38\uC11C\\github\\dragselect_mod\\dragboxpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|solutionrelative:dragboxpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|c:\\users\\tysm9\\onedrive\\\uBB38\uC11C\\github\\dragselect_mod\\dragselectmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|solutionrelative:dragselectmod.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|c:\\users\\tysm9\\onedrive\\\uBB38\uC11C\\github\\dragselect_mod\\dragboxpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|solutionrelative:dragboxpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ADEF0E6-1852-D9C1-1B0C-CB297EA3CDEA}|DragSelectMod.csproj|c:\\users\\tysm9\\onedrive\\\uBB38\uC11C\\github\\dragselect_mod\\cardgroupmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DragSelectMod",
+              "DocumentIndex": 0,
+              "Title": "DragSelectMod.csproj",
               "DocumentMoniker": "C:\\Users\\tysm9\\OneDrive\\\uBB38\uC11C\\GitHub\\DragSelect_Mod\\DragSelectMod.csproj",
               "RelativeDocumentMoniker": "DragSelectMod.csproj",
               "ToolTip": "C:\\Users\\tysm9\\OneDrive\\\uBB38\uC11C\\GitHub\\DragSelect_Mod\\DragSelectMod.csproj",
               "RelativeToolTip": "DragSelectMod.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-18T14:08:00.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DragBoxPatch.cs",
               "DocumentMoniker": "C:\\Users\\tysm9\\OneDrive\\\uBB38\uC11C\\GitHub\\DragSelect_Mod\\DragBoxPatch.cs",
               "RelativeDocumentMoniker": "DragBoxPatch.cs",
               "ToolTip": "C:\\Users\\tysm9\\OneDrive\\\uBB38\uC11C\\GitHub\\DragSelect_Mod\\DragBoxPatch.cs",
               "RelativeToolTip": "DragBoxPatch.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAgwEoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T14:07:09.094Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "CardGroupMover.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:07:09.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T14:07:09.365Z"
             }
           ]
         }

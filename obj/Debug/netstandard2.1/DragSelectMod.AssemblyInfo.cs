@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DragSelectMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+f465ff60f3080fbba0c2250b441f10d9708d9ec5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+dcad5b6bf864b6d05b9a017495afd37743f7a24a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DragSelectMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DragSelectMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
