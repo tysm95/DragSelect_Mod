@@ -9,9 +9,9 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<GamePath>C:\SteamLibrary\steamapps\common\Stacklands</GamePath>
+		<GamePath>C:\Program Files (x86)\Steam\steamapps\common\Stacklands</GamePath>
 		<GameDataPath>$(GamePath)\Stacklands_Data\Managed</GameDataPath>
-		<ModOutputDir>C:\Users\JSM\AppData\LocalLow\sokpop\Stacklands\Mods\DragSelectMod</ModOutputDir>
+		<ModOutputDir>C:\Users\tysm9\AppData\LocalLow\sokpop\Stacklands\Mods\DragSelectMod</ModOutputDir>
 	</PropertyGroup>
 
 	<ItemGroup>

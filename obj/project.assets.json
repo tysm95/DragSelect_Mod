@@ -8,19 +8,24 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\JSM\\.nuget\\packages\\": {}
+    "C:\\Users\\tysm9\\.nuget\\packages\\": {},
+    "D:\\here\\e\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JSM\\Desktop\\새 폴더\\DragSelect_Mod\\DragSelectMod.csproj",
+      "projectUniqueName": "C:\\Users\\tysm9\\OneDrive\\문서\\GitHub\\DragSelect_Mod\\DragSelectMod.csproj",
       "projectName": "DragSelectMod",
-      "projectPath": "C:\\Users\\JSM\\Desktop\\새 폴더\\DragSelect_Mod\\DragSelectMod.csproj",
-      "packagesPath": "C:\\Users\\JSM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JSM\\Desktop\\새 폴더\\DragSelect_Mod\\obj\\",
+      "projectPath": "C:\\Users\\tysm9\\OneDrive\\문서\\GitHub\\DragSelect_Mod\\DragSelectMod.csproj",
+      "packagesPath": "C:\\Users\\tysm9\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tysm9\\OneDrive\\문서\\GitHub\\DragSelect_Mod\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\here\\e\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\JSM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tysm9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,7 +45,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "netstandard2.1": {
@@ -61,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

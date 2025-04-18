@@ -2,7 +2,6 @@ C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\Dr
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\DragSelectMod.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\DragSelectMod.pdb
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\0Harmony.dll
-C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\Assembly-CSharp.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\GameScripts.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\Unity.InputSystem.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.CoreModule.dll
@@ -19,7 +18,6 @@ C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\Un
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\Newtonsoft.Json.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\SokSheet.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.UnityWebRequestModule.dll
-C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.UIModule.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\DOTween.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\com.rlabrecque.steamworks.net.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UImGui.dll
@@ -45,8 +43,6 @@ C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\Un
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.PerformanceReportingModule.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.Physics2DModule.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.AnimationModule.dll
-C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.SharedInternalsModule.dll
-C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.TextRenderingModule.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.ClothModule.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.ClusterInputModule.dll
 C:\Users\tysm9\OneDrive\문서\GitHub\DragSelect_Mod\bin\Debug\netstandard2.1\UnityEngine.ClusterRendererModule.dll

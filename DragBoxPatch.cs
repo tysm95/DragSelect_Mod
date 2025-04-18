@@ -67,6 +67,7 @@ namespace DragSelectMod
             {
                 Canvas canvas = GameObject.FindObjectOfType<Canvas>();
                 if (canvas == null) return;
+                //Debug.Log("Canvas is Not Null");
 
                 isDragging = false;
                 Vector2 dragEnd = Mouse.current.position.ReadValue() / canvas.scaleFactor;
